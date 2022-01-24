@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 gunicorn = "*"
 connexion = "*"
+flask-sqlalchemy = "*"
 
 [dev-packages]
 
