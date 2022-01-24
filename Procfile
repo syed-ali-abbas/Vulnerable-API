@@ -1,1 +1,1 @@
-web: gunicorn app:vuln
+web: gunicorn wsgi:app
