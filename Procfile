@@ -1,1 +1,1 @@
-web: gunicorn app:vuln_app
+web: gunicorn app:vuln
