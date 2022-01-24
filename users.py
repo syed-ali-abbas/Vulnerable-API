@@ -6,7 +6,7 @@ from config import db, vuln_app
 from api_views.json_schemas import *
 from flask import jsonify, Response, request, json
 from models.user_model import User
-from . import vuln
+from app import vuln
 
 
 def error_message_helper(msg):
